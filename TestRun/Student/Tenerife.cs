@@ -1,25 +1,28 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace LabActivity
+namespace TestRun.Student
 {
-    public class Tenerife
+    internal class Tenerife : Student
     {
-        public void Run()
+        public override void Run()
         {
-            
             int age = 19;
             float gwa = 1.34f;
             string name = "Richel Tenerife";
             bool isEnrolled = true;
 
-            
+
             Console.WriteLine("=== Student Info ===");
             Console.WriteLine("Name: " + name);
             Console.WriteLine("Age: " + age);
             Console.WriteLine("GWA: " + gwa);
             Console.WriteLine("Enrolled: " + isEnrolled);
 
-            
+
             if (isEnrolled)
             {
                 Console.WriteLine(name + " is currently enrolled.");
@@ -29,8 +32,11 @@ namespace LabActivity
                 Console.WriteLine(name + " is not enrolled.");
             }
 
-           
+
             Console.WriteLine("Author by: Tenerife");
         }
     }
 }
+
+
+     
