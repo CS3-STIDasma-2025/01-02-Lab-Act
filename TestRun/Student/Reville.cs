@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Rhodes_Info
+namespace TestRun.Student
 {
-    internal class Program
+    internal class Yuri : Student
     {
-        static void Main(string[] args)
+        public override void Run()
         {
+            Console.WriteLine("Running Yuri's code...");
             Console.WriteLine("[--- Arknights Operator Registration ---]");
 
             // Ask for operator details
@@ -43,5 +44,6 @@ namespace Rhodes_Info
 
             Console.WriteLine("\n--- Author by : Reville ---");
         }
+   
     }
 }
