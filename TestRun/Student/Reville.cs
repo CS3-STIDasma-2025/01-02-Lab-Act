@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace TestRun.Student
 {
-    internal class Yuri : Student
+    internal class Reville : Student
     {
         public override void Run()
         {
-            Console.WriteLine("Running Yuri's code...");
+            Console.WriteLine("Running Reville's code...");
             Console.WriteLine("[--- Arknights Operator Registration ---]");
 
             // Ask for operator details
@@ -47,3 +47,4 @@ namespace TestRun.Student
    
     }
 }
+
