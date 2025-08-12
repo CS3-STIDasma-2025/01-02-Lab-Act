@@ -23,7 +23,7 @@ namespace TestRun.Student
             Console.WriteLine("My birthday is: " + Birthday);
             Console.WriteLine("My weight is: " + weight);
             Console.WriteLine("My height is: " + height);
-
+            
             Console.WriteLine("Do I have a girlfriend? Please answer 'true' or 'false': ");
             string? answer = Console.ReadLine()?.ToLower();
 
@@ -36,8 +36,11 @@ namespace TestRun.Student
             else
             {
                 Console.WriteLine("Invalid input! Please enter 'true' or 'false'.");
+                
             }
+            Console.WriteLine("\nAuthor By: John Guiller R. Garcia");
         }
     }
 }
+
 //THIS IS A TEMPLATE FILE 
