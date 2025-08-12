@@ -44,6 +44,7 @@ namespace TestRun.Student
 
             Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
+            Console.WriteLine("Author by: "+ "Balicorta");
         }
     }
 }
